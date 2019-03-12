@@ -1,0 +1,53 @@
+p
+{
+    color: green;
+}
+h1
+{
+    color:rgb(243, 237, 237);
+    padding-top: 10px;
+    
+    
+}
+#one
+{
+   margin: 10px 10px;
+   background:#ff6f69;
+  height: 80px;
+   
+   
+}
+#two
+{
+    margin:10px 10px;
+    background: #ffeead;
+    
+}
+
+
+#crystals
+{
+ 
+  display: inline;
+ 
+}
+.crystals-image
+{
+    padding:5px;
+}
+#win
+{
+    height: 150px;
+    width: 150px;
+    background: green;
+    margin: 10px 10px;
+    color: white;
+}
+#win2
+{
+   
+    height: 100px;
+    background: green;
+    margin: 10px 10px;
+    
+}
