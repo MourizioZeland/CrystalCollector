@@ -28,6 +28,7 @@ h1
 #crystals
 {
  
+    
   display: inline;
  
 }
@@ -39,15 +40,32 @@ h1
 {
     height: 150px;
     width: 150px;
-    background: green;
+    background: #fb2e01;
     margin: 10px 10px;
     color: white;
+    
+   
 }
 #win2
 {
    
     height: 100px;
-    background: green;
+    background: #6fcb9f;
     margin: 10px 10px;
     
+}
+#win3
+{
+   
+    height: 30px;
+    background: #6fcb9f;
+    margin: 10px 10px;
+    
+}
+#winner
+{
+    height: 150px;
+    background:lightcyan;
+    margin: 10px 10px;
+  
 }

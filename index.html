@@ -10,38 +10,58 @@
             <script src="games/game.js"></script>
 </head>
 <body background ="images/background.jpeg">
-	<div id ="container">
+	<div class ="container">
 		
-		<div id ="row">
+		<div class ="row">
 
-			<div id="one" class="col-3">
+			<div id="one" class="col-lg-4">
 				<h1> CrystalCollector ! </h1>
 			</div>
+			<div class="col-lg-9">
+
+			</div>
 		</div>
-		<div id="row">
-			<div id="two" class="col-6">
-				<p>You willbe given a random number at the start of the game.</p>
+		<div class="row">
+			<div id="two" class="col-lg-4">
+				<p>You will be given a random number at the start of the game.</p>
 				<p>	There are four crystals below. By picking on a crystal you will add a specific amount of points to your total score.</p>
 				<p>You win the game by matching your total score to random number, you love the game if your total score goes above the random number.</p>
 				<p>The value of each crystal is hidden from you until you click on it.</p>
 				<p>Each time when the game starts, the game will change the values of each crystal.</p>
 			</div>
+			<div class="col-lg-6">
+
+			</div>
 		</div>
-		<div id= "row">
+		<div class= "row">
 			<div id="win" class="col-2">
 				
 				<h2><span id= "numberplacer"></span></h2>
 				
 			</div>
-		</div>
-		<div id="row">
-			<div id="crystals" class="col-lg-5">
+			<div id = "winner" class="col-lg-1">
+				<h6>Wins: <span id="winner"></span></h6>
+				<h6>Losses:</h6>
 			</div>	
+			<div class="col-lg-8">
+
+			</div>
 		</div>
-		<div id="row">
+		
+		<div class="row">
+			
+			<div id="crystals" class="col-lg-12">
+			</div>
+			
+		</div>
+		<div class="row">
+				<div id = "win3" class= "col-3">
+						<h6>Your total score is:</h6>
+				</div>
+			</div>
+		<div class="row">
 			<div id = "win2" class= "col-3">
-					<h6>Wins:</h6>
-					<h6>Losses:</h6>
+					
 			</div>
 		</div>
  	</div>
